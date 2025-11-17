@@ -26,26 +26,33 @@
 				</div>
 				<div class="setting-list">
 					<div>
-						<span class="">Long Break interval</span>
+						<span class="setting-title">Long Break interval</span>
 					</div>
 					<input type="number" min="1" step="1" width="70" class="input-lb" value="4">
 				</div>
 			</section>
 			<section class="pomodoro-container">
 				<div class="mode">
-					<button class="pomodoro-button active" data-duration="25:00">pomodoro</button>
-					<button class="short-break-button" data-duration="05:00">short break</button>
-					<button class="long-break-button" data-duration="15:00">long break</button>
+					<button class="pomodoro-button active" data-duration="25:00">Pomodoro</button>
+					<button class="short-break-button" data-duration="05:00">Short break</button>
+					<button class="long-break-button" data-duration="15:00">Long break</button>
 				</div>
 				<h1 class="pomodoro-timer" data-time="25:00">25:00</h1>
 				<div class="buttons-container">
 					<button class="reset-button">
-						<img src="./assets/reset.svg" alt="reset button">
+						<img src="./assets/reset.svg" alt="reset button" title="ctrl + alt + R">
 					</button>
-					<button class="start-button"  title="ctrl + space">Start</button>
+					<button class="start-button"  title="ctrl + alt + space">Start</button>
 				</div>
 			</section>
 		</div>
+		
+		<footer class="footer">
+		Made by 
+			<a href="https://github.com/itsmeyeshua" target="_blank" class="github-link">
+				itsmeyeshua
+			</a>
+		</footer>
 
 
 		<script src="script.js"></script>
