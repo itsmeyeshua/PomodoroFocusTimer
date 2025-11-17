@@ -1,6 +1,6 @@
 # 🍅 Pomodoro Timer
 A clean Pomodoro timer built with vanilla JavaScript using the Pomodoro Technique.
-[Live Demo](www.test.com)
+[Live Demo](https://pomodorfocustimer.vercel.app/)
 ## ✨ Features
 ⏱️ Timer Modes: Pomodoro (25m), Short Break (5m), Long Break (15m)
 

@@ -174,6 +174,7 @@ document.addEventListener("keydown", function (event) {
 })
 
 function updateTimer(time, title) {
+	title = title.toLowerCase();
     let pomoTitle = document.querySelector(".pomodoro-timer");
     let skipButton = document.querySelector(".skip-button");
 
